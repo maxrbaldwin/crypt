@@ -1,0 +1,25 @@
+{
+  "name": "nymedian-api",
+  "version": "0.0.1",
+  "description": "External API for NYMedian Data",
+  "main": "server/index.js",
+  "scripts": {
+    "test": "node server/index.js"
+  },
+  "author": "Max Baldwin",
+  "license": "ISC",
+  "dependencies": {
+    "async": "^1.5.2",
+    "bluebird": "^3.2.1",
+    "body-parser": "^1.14.2",
+    "chalk": "^1.1.3",
+    "dotenv": "^2.0.0",
+    "express": "^4.13.4",
+    "mongoose": "^4.3.7",
+    "request": "^2.69.0",
+    "swig": "^1.4.2"
+  },
+  "devDependencies": {
+    "nodemon": "^1.8.1"
+  }
+}

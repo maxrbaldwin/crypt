@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Scraper</title>
+	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.14/semantic.min.css">
+</head>
+<body style="width: 400px;">
+
+<div class="ui inverted menu">
+	<div class="ui container">
+		<div class="ui header item">
+			Scraper
+		</div>
+	</div>
+</div>
+<div class="ui main text container">
+	<div class="ui vertical segment">
+		<div class="ui fluid form">
+			<div class="field inspector-on">
+				<div class="ui toggle checkbox">
+				  <input type="checkbox" name="tool" value="debugger" id="tool">
+				  <label for="tool"></label>
+				</div>
+			</div>
+		  <div class="field client-id" style="display: none;">
+				<input type="text" id="client-id" placeholder="Google client ID">
+				<div class="ui pointing label">
+		      Get your client ID from the <a href="https://console.developers.google.com/">Google API Console</a>.
+		    </div>
+			</div>
+			<div class="field report-email" style="display: none;">
+				<input type="text" id="report-email" placeholder="Send report email to">
+				<div class="ui pointing label">
+		      When an ad is reported, it will go to this address by default.
+		    </div>
+			</div>
+			<button id="save" class="ui primary button">Save</button>
+			<div class="ui success message">
+		    <p>Options saved.</p>
+		  </div>
+		</div>
+	</div>
+
+	<div class="ui vertical segment">
+		<p>Leave us feedback below or follow us on Slack <a href="https://nytimes.slack.com/messages/ad-frameworks">#ad-frameworks</a></p>
+
+		<h3>Feedback:</h3>
+		<p><a href="https://docs.google.com/a/nytimes.com/forms/d/e/1FAIpQLScVj5f6ELYpfhFNBZDzkHQAjQ11cjS0HLZASoY6NW90wCeVvQ/viewform?embedded=true">Google Form</a></p>
+
+		<h3>Known issues:</h3>
+		<p><a href="https://docs.google.com/a/nytimes.com/document/d/1jZqWoswDLyOVT6iONf8sYzjFWGz1sdEelRCPuxpNjk4/edit?usp=sharing">Google Doc</a></p>
+
+		<h3>Contributors:</h3>
+		<p>Max Baldwin, Jessica Kosturko, Gousini Shaik, Thu Trinh</p>
+	</div>
+</div>
+
+<script src="js/popup.js"></script>
+</body>
+</html>

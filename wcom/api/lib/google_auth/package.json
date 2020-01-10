@@ -1,0 +1,14 @@
+{
+  "name": "google-auth-module",
+  "version": "1.0.0",
+  "description": "A local module for receiving and working with google auth",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "maxrbaldwin",
+  "license": "ISC",
+  "dependencies": {
+    "shortid": "^2.2.6"
+  }
+}

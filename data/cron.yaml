@@ -1,0 +1,10 @@
+cron:
+- description: "Daily house legislations"
+  url: /scrape/rss/today/senate
+  schedule: every 6 hours
+- description: "Daily Senate legislation"
+  url: /scrape/rss/today/house
+  schedule: every 6 hours
+- description: "Weekly most viewed bills"
+  url: /scrape/rss/weekly/most-viewed-bills
+  schedule: every 24 hours

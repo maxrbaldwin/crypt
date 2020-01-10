@@ -1,0 +1,46 @@
+{
+    "manifest_version": 2,
+    "name": "Ad Inspector",
+    "version": "1.3.1",
+    "description": "Scraping cotent",
+    "icons": {},
+    "content_scripts": [
+      {
+        "matches": ["https://*/*", "http://*/*"],
+        "css": ["css/debugger.css"],
+        "js": ["js/content_script.js"],
+        "run_at": "document_end",
+        "exclude_matches": [
+          "https://www.google.com/dfp/*"
+        ]
+      }
+    ],
+    "externally_connectable": {
+      "matches": ["*://*.nytimes.com/*"]
+    },
+    "browser_action": {
+      "default_icon": {},
+      "default_title": "Ad Inspector",
+      "default_popup": "popup.html"
+    },
+    "permissions": [
+      "activeTab",
+      "tabs",
+      "storage",
+      "webRequest",
+      "<all_urls>",
+      "webRequest",
+      "webRequestBlocking",
+      "http://*/*",
+      "https://*/*",
+      "notifications"
+    ],
+    "background": {
+      "scripts": ["js/background.js"],
+      "persistent": true
+    },
+    "web_accessible_resources": [
+      "js/debugger.js",
+      "config.json"
+    ]
+  }

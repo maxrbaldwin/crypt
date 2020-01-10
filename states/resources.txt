@@ -1,0 +1,5 @@
+Elasticsearch 2.3 API
+- https://www.elastic.co/guide/en/elasticsearch/client/javascript-api/current/api-reference-2-3.html
+
+Elasticsearch Glossary of terms
+- https://www.elastic.co/guide/en/elasticsearch/reference/current/glossary.html

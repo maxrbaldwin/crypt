@@ -1,0 +1,19 @@
+.navbar {
+	padding: 20px 0px;
+	position: absolute;
+	top: 0;
+	right: 0;
+	left: 0;
+	z-index: 9999;
+
+	li {
+		display: inline-block;
+		list-style: none;
+		margin-right: 20px;
+		font-size: $medium-text;
+
+		a:hover {
+			background-color: $yellow;
+		}
+	}
+}

@@ -1,0 +1,39 @@
+{
+  "name": "menu",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "PGUSER=postgres PGHOST=localhost PGPASSWORD=mx993322 PGDATABASE=recipes PGPORT=3002 nodemon src/index.js",
+    "start": "node src/index.js",
+    "start-db": "pg_ctl -D /usr/local/var/postgres start",
+    "stop-db": "pg_ctl -D /usr/local/var/postgres stop"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "express-session": "^1.16.1",
+    "jsdom": "^15.0.0",
+    "module-alias": "^2.1.0",
+    "node-cache": "^4.2.0",
+    "passport": "^0.4.0",
+    "passport-github": "^1.1.0",
+    "pg": "^7.7.1",
+    "readability": "github:mozilla/readability",
+    "request": "^2.88.0",
+    "request-promise": "^4.2.2"
+  },
+  "_moduleAliases": {
+    "@src": ".",
+    "@app": "./src/app",
+    "@routes": "./src/routes",
+    "@utils": "./src/utils",
+    "@logging": "./src/logging",
+    "@db": "./src/db",
+    "@cache": "./src/cache",
+    "@middleware": "./src/middleware"
+  }
+}

@@ -1,0 +1,20 @@
+
+h1,
+h2,
+h3,
+li a,
+.ui.button,
+.ui.header,
+.ui.popup {
+	font-family: $primary-font;
+	text-transform: uppercase;
+	font-weight: 400;
+}
+
+p, span, a {
+	font-family: $secondary-font;
+}
+
+h1 {
+	font-size: $large-text;
+}

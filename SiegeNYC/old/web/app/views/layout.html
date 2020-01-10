@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>SiegeNYC</title>
+    <link rel="stylesheet" type="text/css" href="/css/libs/semantic.min.css">
+    {% block styles %}{% endblock %}
+</head>
+
+<body>
+    <section class="app-wrapper">
+        {% block nav %}{% endblock %}
+        {% block body %}{% endblock %}
+    </section>
+<!-- <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.3/jquery.min.js"></script> -->
+<script type="text/javascript" src="/js/libs/jquery.js"></script>
+<script type="text/javascript" src="/js/libs/semantic.min.js"></script>
+{% block scripts %}{% endblock %}
+</body>
+
+</html>

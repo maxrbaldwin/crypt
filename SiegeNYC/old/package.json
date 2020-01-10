@@ -1,0 +1,31 @@
+{
+  "name": "siegenyc",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node start.js"
+  },
+  "author": "maxrbaldwin",
+  "license": "ISC",
+  "dependencies": {
+    "async": "^1.5.2",
+    "bluebird": "^3.3.1",
+    "helpers": "file:modules/helpers",
+    "pm2": "^1.0.1",
+    "request": "^2.71.0",
+    "staticdb": "file:modules/staticDB"
+  },
+  "devDependencies": {
+    "browserify-alias-grunt": "^0.1.0",
+    "grunt": "^0.4.5",
+    "grunt-browserify": "^4.0.1",
+    "grunt-contrib-sass": "^0.9.2",
+    "grunt-contrib-watch": "^0.6.1",
+    "load-grunt-config": "^0.19.1",
+    "react": "^0.14.8",
+    "react-dom": "^0.14.3",
+    "reactify": "^1.1.1"
+  }
+}

@@ -1,0 +1,145 @@
+{
+  "last_name": "Henry",
+  "updated_at": "2016-05-12 06:00:36",
+  "sources": [{}],
+  "full_name": "Ed Henry",
+  "old_roles": {
+    "2011-2014": [
+      {
+        "term": "2011-2014",
+        "end_date": null,
+        "district": "9",
+        "chamber": "lower",
+        "state": "al",
+        "party": "Republican",
+        "type": "member",
+        "start_date": null
+      },
+      {
+        "term": "2011-2014",
+        "committee_id": "ALC000003",
+        "end_date": null,
+        "chamber": "lower",
+        "state": "al",
+        "committee": "Technology and Research",
+        "position": "member",
+        "type": "committee member",
+        "start_date": null
+      },
+      {
+        "term": "2011-2014",
+        "committee_id": "ALC000025",
+        "end_date": null,
+        "chamber": "lower",
+        "state": "al",
+        "committee": "Health",
+        "position": "member",
+        "type": "committee member",
+        "start_date": null
+      },
+      {
+        "term": "2011-2014",
+        "committee_id": "ALC000019",
+        "end_date": null,
+        "chamber": "lower",
+        "state": "al",
+        "committee": "Education Policy",
+        "position": "member",
+        "type": "committee member",
+        "start_date": null
+      }
+    ],
+    "2015-2018": [
+      {
+        "term": "2015-2018",
+        "end_date": null,
+        "district": "9",
+        "chamber": "lower",
+        "state": "al",
+        "party": "R",
+        "type": "member",
+        "start_date": null
+      }
+    ]
+  },
+  "id": "ALL000077",
+  "first_name": "Ed",
+  "middle_name": "",
+  "district": "9",
+  "office_address": "Room 524-A\\n11 S. Union Street\\nMontgomery, AL 36130",
+  "state": "al",
+  "votesmart_id": "121505",
+  "party": "Republican",
+  "email": "ed.henry@alhouse.gov",
+  "all_ids": [
+    "ALL000077",
+    "ALL000241",
+    "ALL000342"
+  ],
+  "leg_id": "ALL000077",
+  "active": true,
+  "transparencydata_id": "d9b40e5c55d54f8ab961444a8507e56e",
+  "photo_url": "http://www.legislature.state.al.us/ALISWWW/House/Representative%20Pictures/Henry_9.jpeg",
+  "roles": [
+    {
+      "term": "2015-2018",
+      "end_date": null,
+      "district": "9",
+      "chamber": "lower",
+      "state": "al",
+      "party": "Republican",
+      "type": "member",
+      "start_date": null
+    },
+    {
+      "term": "2015-2018",
+      "committee_id": "ALC000012",
+      "end_date": null,
+      "chamber": "lower",
+      "state": "al",
+      "committee": "Ethics and Campaign Finance",
+      "position": "Vice Chair",
+      "type": "committee member",
+      "start_date": null
+    },
+    {
+      "term": "2015-2018",
+      "committee_id": "ALC000019",
+      "end_date": null,
+      "chamber": "lower",
+      "state": "al",
+      "committee": "Education Policy",
+      "position": "Member",
+      "type": "committee member",
+      "start_date": null
+    },
+    {
+      "term": "2015-2018",
+      "committee_id": "ALC000017",
+      "end_date": null,
+      "chamber": "lower",
+      "state": "al",
+      "committee": "State Government",
+      "position": "Member",
+      "type": "committee member",
+      "start_date": null
+    }
+  ],
+  "level": "state",
+  "url": "http://www.legislature.state.al.us/house/representatives/housebios/hd009.html",
+  "country": "us",
+  "created_at": "2011-12-07 21:20:44",
+  "chamber": "lower",
+  "offices": [
+    {
+      "fax": null,
+      "name": "Capitol Office",
+      "phone": "334-242-7736",
+      "address": "Suite 401-F\\n11 S. Union Street\\nMontgomery, AL 36130",
+      "type": "capitol",
+      "email": null
+    }
+  ],
+  "office_phone": "334-242-7736",
+  "suffixes": ""
+}

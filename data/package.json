@@ -1,0 +1,29 @@
+{
+  "name": "data",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@google-cloud/error-reporting": "^0.5.1",
+    "@google-cloud/logging": "^3.0.2",
+    "@google-cloud/storage": "^1.7.0",
+    "body-parser": "^1.18.3",
+    "express": "^4.16.3",
+    "module-alias": "^2.1.0",
+    "rss-parser": "^3.4.3"
+  },
+  "_moduleAliases": {
+    "@src": ".",
+    "@app": "./src/app",
+    "@routes": "./src/routes",
+    "@utils": "./src/utils",
+    "@logging": "./src/utils/logging",
+    "@emitter": "./src/emitter"
+  }
+}

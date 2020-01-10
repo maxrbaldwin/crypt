@@ -1,0 +1,19 @@
+{
+  "name": "data",
+  "version": "1.0.0",
+  "description": "",
+  "main": "transformer.js",
+  "dependencies": {
+    "async": "^2.0.0-rc.5",
+    "bluebird": "^3.4.0",
+    "csv": "^1.1.0",
+    "mongoose": "^4.4.19",
+    "request": "^2.72.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}

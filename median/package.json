@@ -1,0 +1,40 @@
+{
+  "name": "median",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "kyt dev",
+    "build": "kyt build",
+    "start": "kyt start",
+    "kyt:test": "kyt test",
+    "test-watch": "kyt test -- --watch",
+    "test-coverage": "kyt test -- --coverage",
+    "lint": "kyt lint",
+    "lint-style": "kyt lint-style",
+    "proto": "kyt proto",
+    "kyt:help": "kyt --help",
+    "kyt:dev": "kyt dev",
+    "kyt:build": "kyt build",
+    "kyt:start": "kyt start",
+    "kyt:test-watch": "kyt test -- --watch",
+    "kyt:test-coverage": "kyt test -- --coverage",
+    "kyt:lint": "kyt lint",
+    "kyt:lint-style": "kyt lint-style",
+    "kyt:proto": "kyt proto"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "kyt": "^0.2.1",
+    "compression": "^1.6.2",
+    "enzyme": "^2.4.1",
+    "express": "^4.14.0",
+    "path": "^0.12.7",
+    "react": "^15.3.0",
+    "react-addons-test-utils": "^15.3.0",
+    "react-dom": "^15.3.0",
+    "react-router": "^2.6.1"
+  }
+}

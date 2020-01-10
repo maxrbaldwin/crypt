@@ -1,0 +1,23 @@
+#Title {
+	height: 100vh;
+	text-align: center;
+	position: relative;
+
+	.home-title {
+		position: absolute;
+		left: 0;
+		right: 0;
+		top: 40%;
+
+		.title {
+			margin-bottom: 20px;
+
+			h1 {
+				font-size: 60px;
+			}
+
+		} // end title
+	
+	} // end home-title
+
+} // end Title

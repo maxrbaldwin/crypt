@@ -1,0 +1,22 @@
+{
+  "name": "gamrcue",
+  "version": "0.0.1",
+  "description": "App for users to find others to game with",
+  "main": "server/index.js",
+  "scripts": {
+    "test": "node server/index.js"
+  },
+  "author": "maxrbaldwin",
+  "license": "ISC",
+  "dependencies": {
+    "bluebird": "^3.0.5",
+    "body-parser": "^1.14.1",
+    "cookie-parser": "^1.4.0",
+    "dotenv": "^1.2.0",
+    "express": "^4.13.3",
+    "express-session": "^1.12.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.8.1"
+  }
+}

@@ -1,0 +1,104 @@
+@import url(https://fonts.googleapis.com/css?family=Oswald:400,700|Roboto:400,700,300,300italic,400italic,700italic);
+.ui.button {
+  background-color: #fff;
+  border-radius: 0px;
+  border: 3px solid #000;
+  color: #000; }
+  .ui.button:hover {
+    background-color: #ECCC29; }
+
+.ui.default.dropdown:hover > .text,
+.ui.default.dropdown > .text,
+.ui.dropdown:hover > .default.text,
+.ui.dropdown > .default.text {
+  color: #000; }
+
+.ui.form input[type=text],
+.ui.form input[type=password],
+.ui.selection.dropdown,
+.ui.selection.active.dropdown,
+.ui.selection.active.dropdown .menu,
+.ui.selection.active.dropdown:hover,
+.ui.selection.active.dropdown:hover .menu,
+.ui.selection.dropdown:hover,
+.ui.form input[type=text]:focus {
+  border: 3px solid #000;
+  border-radius: 0px; }
+
+.ui.form input.invalid {
+  border: 3px solid #ECCC29; }
+
+.ui.popup {
+  text-transform: uppercase; }
+
+ul, h1, h2 {
+  -webkit-margin-before: 0;
+  -webkit-margin-after: 0;
+  -webkit-padding-start: 0; }
+
+a {
+  color: black; }
+
+a:hover {
+  text-decoration: none;
+  color: black; }
+
+h1,
+h2,
+h3,
+li a,
+.ui.button,
+.ui.header,
+.ui.popup {
+  font-family: "Oswald", sans-serif;
+  text-transform: uppercase;
+  font-weight: 400; }
+
+p, span, a {
+  font-family: "Roboto", sans-serif; }
+
+h1 {
+  font-size: 25px; }
+
+.left-float {
+  float: left; }
+
+.right-float {
+  float: right; }
+
+.clear {
+  clear: both; }
+
+#Title {
+  height: 100vh;
+  text-align: center;
+  position: relative; }
+  #Title .home-title {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 40%; }
+    #Title .home-title .title {
+      margin-bottom: 20px; }
+      #Title .home-title .title h1 {
+        font-size: 60px; }
+
+.navbar {
+  padding: 20px 0px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 9999; }
+  .navbar li {
+    display: inline-block;
+    list-style: none;
+    margin-right: 20px;
+    font-size: 18px; }
+    .navbar li a:hover {
+      background-color: #ECCC29; }
+
+body {
+  overflow: none; }
+
+/*# sourceMappingURL=home.css.map */

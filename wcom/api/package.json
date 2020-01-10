@@ -1,0 +1,26 @@
+{
+  "name": "wcom-api",
+  "version": "1.0.0",
+  "description": "This is an api app for the wcom app",
+  "main": "start.js",
+  "scripts": {
+    "start": "nodemon start.js"
+  },
+  "author": "maxrbaldwin",
+  "license": "ISC",
+  "dependencies": {
+    "bluebird": "^3.4.1",
+    "body-parser": "^1.15.0",
+    "dotenv": "^2.0.0",
+    "express": "^4.13.4",
+    "gauth": "file:lib/google_auth",
+    "google-auth-library": "^0.9.8",
+    "google-auth-module": "file:lib/google_auth",
+    "googleapis": "^9.0.0",
+    "mongoose": "^4.4.11",
+    "shortid": "^2.2.6"
+  },
+  "devDependencies": {
+    "nodemon": "^1.9.2"
+  }
+}

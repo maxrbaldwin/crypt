@@ -1,0 +1,30 @@
+@import 'variables';
+@import 'theme';
+@import 'resets';
+@import 'fonts';
+@import 'helpers';
+@import 'navbar';
+
+body {
+	overflow: none;
+}
+
+#SignUp {
+	padding: 10% 0;
+	width: 60%;
+	// has to be important. Semantic UI uses important... smh
+	max-width: 800px !important;
+
+	.op-select {
+		width: 45%;
+	}
+
+	.op-header {
+		margin: 5% 0;
+	}
+
+	.op-submit {
+		margin-top: 5%;
+	}
+
+} // end SignUp
