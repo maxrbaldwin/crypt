@@ -7,7 +7,7 @@
     "async": "^2.0.0-rc.5",
     "bluebird": "^3.4.0",
     "csv": "^1.1.0",
-    "mongoose": "^4.4.19",
+    "mongoose": "^5.8.6",
     "request": "^2.72.0"
   },
   "devDependencies": {},
